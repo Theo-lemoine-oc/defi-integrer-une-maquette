@@ -1,0 +1,54 @@
+/* CSS - Défi : Intégrer une maquette */
+/* Par Théo Lemoine (Proph) */
+
+
+
+
+/************ GENERAL *************/
+
+
+body {
+    /*margin: 0;
+    box-sizing: border-box;*/
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+
+
+/************ HEADER *************/
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-ul {
+    display: flex;
+}
+
+.nav-wignet {
+    list-style: none;
+    padding-left: 30px;
+}
+
+
+
+/************ MAIN *************/
+
+
+
+
+
+/************ FOOTER *************/
