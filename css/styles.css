@@ -31,7 +31,7 @@ header {
 
 .nav-block {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-ul {
@@ -47,8 +47,141 @@ header {
 
 /************ MAIN *************/
 
+/*  BANNER */
+#banner {
+    height: 450px;
+    position: relative;
+}
 
+#banner-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#banner-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#banner-content img {
+    width: 200px;
+}
+
+#banner-content h1 {
+    color: #fff;
+    font-weight: 400;
+}
+
+
+/* Company presentation */
+#presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#introduction {
+    margin-top: 30px;
+    max-width: 800px;
+    color: rgb(86, 86, 86);
+    font-size: 1.4em;
+    text-align: center;
+}
+
+
+/* Skills */
+#skills {
+    margin-top: 30px;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#skills article {
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+#skills h2 {
+    font-size: 1.4em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#skills p {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+
+/* Notices */
+#notice {
+    max-width: 600px;
+    margin-top: 50px;
+}
+
+#notice p {
+    text-align: center;
+    color: rgb(86, 86, 86);
+}
+
+.notice-content {
+    font-size: 1.3em;
+}
+
+.notice-author {
+    font-weight: 300;
+}
 
 
 
 /************ FOOTER *************/
+
+footer {
+    background-color: #5b359d;
+    padding-top: 20px;
+}
+
+#copyright {
+    color: #fff;
+    text-align: center;
+    font-size: 0.5em;
+    font-weight: 400;
+}
+
+#social-network {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    color: rgb(255, 255, 255, 0.6);
+    
+}
+
+#social-network .sn-icon {
+    font-size: 30px;
+    margin: 0 40px 0 40px;
+}
+
+#footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-infos {
+    color: rgb(255, 255, 255, 0.6);
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.footer-infos li, .footer-infos p {
+    color: #fff;
+}
